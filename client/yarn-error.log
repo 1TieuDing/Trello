@@ -1,0 +1,90 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\vtuan\bin;D:\vtuan\Git\mingw64\bin;D:\vtuan\Git\usr\local\bin;D:\vtuan\Git\usr\bin;D:\vtuan\Git\usr\bin;D:\vtuan\Git\mingw64\bin;D:\vtuan\Git\usr\bin;C:\Users\vtuan\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\vtuan\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\nodejs;C:\Users\vtuan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;D:\vtuan\Microsoft VS Code\bin;C:\Users\vtuan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\vtuan\AppData\Local\Yarn\bin;C:\Users\vtuan\AppData\Roaming\npm;D:\vtuan\Git\usr\bin\vendor_perl;D:\vtuan\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.15.19.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@atlaskit/css-reset": "^6.2.0",
+      "@date-io/date-fns": "^2.11.0",
+      "@emotion/react": "^11.5.0",
+      "@emotion/styled": "^11.3.0",
+      "@mui/icons-material": "^5.1.0",
+      "@mui/material": "^5.1.0",
+      "@mui/styles": "^5.1.0",
+      "@react-hook/mouse-position": "^4.1.3",
+      "@reduxjs/toolkit": "^1.6.2",
+      "@testing-library/jest-dom": "^5.15.0",
+      "@testing-library/react": "^11.2.7",
+      "@testing-library/user-event": "^12.8.3",
+      "axios": "^0.24.0",
+      "date-fns": "^2.0.0-beta.5",
+      "eslint-plugin-react-hooks": "^4.2.1-alpha-a44a7a2a3-20211111",
+      "moment": "^2.29.1",
+      "react": "^17.0.2",
+      "react-beautiful-dnd": "^13.1.0",
+      "react-date-range": "^1.4.0",
+      "react-dom": "^17.0.2",
+      "react-redux": "^7.2.6",
+      "react-router-dom": "^5.3.0",
+      "react-scripts": "4.0.3",
+      "styled-components": "^5.3.3",
+      "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
